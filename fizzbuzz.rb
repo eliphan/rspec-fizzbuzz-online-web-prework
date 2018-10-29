@@ -5,7 +5,7 @@ def fizzbuzz(int)
   if int % 15 == 0 
       "FizzBuzz"
   elsif int % 5 != 0 && int % 3 != 0
-      "nil"
+      nil
   elsif int % 5 == 0  
      "Buzz"
   else int % 3 == 0 # if the number int is divisible by 3
